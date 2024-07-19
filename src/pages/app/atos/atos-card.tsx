@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Dialog, DialogTrigger } from "@/components/ui/dialog";
-import { Eye, SquareArrowOutUpRight } from "lucide-react";
-import { AtosDetails } from "./atos-details";
+import { Eye, PencilLine, SquareArrowOutUpRight, Trash2 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 
@@ -36,12 +34,23 @@ export function AtosCard( ) {
                         </Button>
                 </NavLink>  
                       
-                      
                                          
                     <Button variant="outline" size="xs" className="gap-2 text-amber-500 font-normal border-amber-500 hover:text-amber-600 dark:border-amber-300 dark:text-amber-300">
                       <SquareArrowOutUpRight  className="h-3 w-3" />
                       Texto Integral
                       <span className="sr-only">Visualizar texto integral do ato normativo</span>
+                    </Button>
+
+                    <Button variant="default" size="xs" className="gap-2">
+                      <PencilLine  className="h-3 w-3" />
+                      Editar
+                      <span className="sr-only">Editar ato normativo</span>
+                    </Button>
+
+                    <Button variant="destructive" size="xs" className="gap-2">
+                      <Trash2  className="h-3 w-3" />
+                      Excluir
+                      <span className="sr-only">Excluir ato normativo</span>
                     </Button>
                   </div>
             </CardFooter>

@@ -7,9 +7,9 @@ export function AtosTableFilters() {
   return (
     <form className="flex items-center gap-2">
           <span className="text-sm font-semibold">Filtros:</span>
-          <Input placeholder="Busca por termos" className="h-8 w-auto"/>
+          <Input placeholder="Busca por termos" className="h-8 w-[320px]"/>
           <Input placeholder="Número" className="h-8 w-auto"/>
-          <Input placeholder="Título" className="h-8 w-[320px]"/>
+          <Input placeholder="Ano" className="h-8 w-auto"/>
     
           <Select defaultValue="todos">
             <SelectTrigger className="h-8 w-[220px]">

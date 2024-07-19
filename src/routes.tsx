@@ -9,6 +9,7 @@ import { NotFound } from "./pages/404"
 import { Sobre } from "./pages/sobre"
 import { Inicio } from "./inicio"
 import { Ficha } from "./pages/app/ficha/ficha"
+import { NovoRegistro } from "./pages/app/atos/atos-registro"
 
 
 export const router = createBrowserRouter([
@@ -22,6 +23,7 @@ export const router = createBrowserRouter([
       { path: '/sobre', element: <Sobre/>},
       { path: '/atos', element: <Atos />},
       { path: '/ficha', element: <Ficha />},
+      { path: '/registro', element: <NovoRegistro />}
       
     ]
   },

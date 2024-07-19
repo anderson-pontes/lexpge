@@ -34,12 +34,7 @@ export function Ficha() {
             </TableRow>
             <TableRow>
               <TableCell className="text-muted-foreground">Situação:</TableCell>
-              <TableCell className="flex justify-start">
-                <div className="flex items-center gap-2">
-                      <span className="h-2 w-2 rounded-full bg-slate-400" />
-                      <span>Vigente</span>
-                </div>
-              </TableCell>
+              <TableCell className="flex justify-start">Vigente</TableCell>
             </TableRow>
             <TableRow>
               <TableCell className="text-muted-foreground">Data do ato:</TableCell>
@@ -56,6 +51,10 @@ export function Ficha() {
           <TableRow>
               <TableCell className="text-muted-foreground">Observação:</TableCell>
               <TableCell className="flex text-justify font-medium">Publicada em encarte do DOE nº 26.573, de 06/10/1989; Republicada no DOE nº 26.587, de 27/10/1989. Atualizada até a Emenda Constitucional nº 91, de 21/05/2024, publicada no DOE nº 35.838, de 29/05/2024.</TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell className="text-muted-foreground">Descritores:</TableCell>
+              <TableCell className="flex text-justify font-medium">LISTA PRÉ-APROVADA, PROCESSO JUDICIAIS, IGEPREV, PGE.</TableCell>
             </TableRow>
           </TableFooter>
         </Table>

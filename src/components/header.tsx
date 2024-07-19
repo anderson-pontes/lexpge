@@ -8,9 +8,10 @@ export function Header() {
   return (
     <div className="border-b">
       <div className="flex h-16 items-center gap-6 px-6">
-    
+
         <Scale className="h-6 w-6" />
         <span className="font-semibold">LEXPGE</span>
+        
         <Separator orientation="vertical" className="h-6"/>
 
         <nav className="flex items-center space-x-4 lg:space-x-6">

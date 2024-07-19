@@ -24,9 +24,9 @@ export function Inicio() {
           <Input placeholder="Número" className="h-8"/>
           
 
-          <Input placeholder="Título" className="h-8 col-span-2"/>
+          <Input placeholder="Ano" className="h-8"/>
 
-          <div className="col-span-1">
+          <div className="col-span-2">
           <Select  defaultValue="todos">
             <SelectTrigger className="h-8">
               <SelectValue />
@@ -72,6 +72,7 @@ export function Inicio() {
 
           
           </div>
+          
           
       </div>
 
