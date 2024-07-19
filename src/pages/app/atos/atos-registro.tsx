@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Helmet } from "react-helmet-async";
 import { DatePicker } from "../Date/date";
-import Editor from '../editor/Editor';
+import  Editor from '../editor/Editor';
 
 
 export function NovoRegistro () {
@@ -15,7 +14,7 @@ export function NovoRegistro () {
       <Helmet title="Novo Registro"/>
       <h1 className="text-3xl font-bold tracking-tight text-justify">Novo registro</h1>
     
-        <form className="grid grid-cols-4 gap-3">
+        <form className="grid grid-cols-4 gap-4">
           <div className="space-y-2">
             <Label>Número:</Label>
             <Input placeholder="Número" className="h-8"/>
@@ -78,14 +77,14 @@ export function NovoRegistro () {
             <Input placeholder="Fonte" className="h-8"/>
           </div>
 
-          <div className="space-y-2">
+          <div className=" flex flex-col gap-4">
             <Label>Data do ato:</Label>
             <DatePicker />
           </div>
 
-          <div className="space-y-2">
+          <div className="flex flex-col gap-4">
             <Label>Data de publicação:</Label>
-            <DatePicker/>
+            <DatePicker />
           </div>
 
           <div className="col-span-2 space-y-2">
